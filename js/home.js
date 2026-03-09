@@ -18,6 +18,7 @@ const createElement = (arr) => {
     (elem) =>
       `<span class="text-xs ${labelsColor[elem] || "bg-gray-100 text-gray-500"} px-2 py-1 rounded-full"> ${elem} </span>`,
   );
+  return htmlElement.join(" ");
 };
 
 const loadingContainer = document.getElementById("loading-section");
