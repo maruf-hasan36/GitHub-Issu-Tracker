@@ -55,7 +55,7 @@ function togglingIssue(id) {
   }, 300);
 }
 
-// rendering issues
+// rendering issu
 function filterIssue(status) {
   let filterIssue = [];
 
