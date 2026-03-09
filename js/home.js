@@ -40,7 +40,7 @@ function togglingIssue(id) {
 
   setTimeout(() => {
     const issueBtnContainer = document.querySelectorAll(
-      "#issue-btn-container .btn",
+      "#issue-btn-container .btns",
     );
 
     issueBtnContainer.forEach((btn) => {
