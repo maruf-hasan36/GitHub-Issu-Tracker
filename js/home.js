@@ -261,5 +261,5 @@ document.getElementById("search-btn").addEventListener("click", async () => {
 
   console.log(allData);
 
-  displayAllIssue(allData);
+  displayAllIssue(allDat);
 });
